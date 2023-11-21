@@ -38,7 +38,7 @@ def create_table():
 
 #get data about books from JSON file
 def load_data():
-    # Загружаем данные из JSON-файла
+    # download data from json
     with open('data.json', 'r') as f:
         data = json.load(f)
     return data
