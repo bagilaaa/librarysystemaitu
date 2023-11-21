@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Register</title>
+<style>
+        body {
+            font-family: 'Garamond', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 18px;
+        }
+
+        h2 {
+            color: #333;
+            margin: 50px;
+        }
+        form {
+            margin: 50px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+        .logo-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 30px;
+        }
+        .logo img {
+            width: 100%;
+            max-width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="logo-container">
+        <div class="logo">
+            <img src="https://static.tildacdn.com/tild3632-6531-4436-a133-333134313137/aitu-logo_.png" alt="AITU Logo">
+        </div>
+        <div class="header-container">
+            <h1>AITU DIGITAL LIBRARY</h1>
+        </div>
+    </div>
+
+<div>
+    <h2>REGISTER</h2>
+    <form method="POST" action="{{ url_for('register') }}">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <label for="speciality">Year:</label>
+        <input type="text" id="speciality" name="speciality" required>
+        <br>
+        <label for="group">Group:</label>
+        <input type="text" id="group" name="group" required>
+        <br>
+        <input type="submit" value="Register">
+    </form>
+    <p>Already have an account? <a href="{{ url_for('login') }}">Login</a></p>
+</div>
+</body>
+</html>

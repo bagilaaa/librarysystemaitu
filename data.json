@@ -1,0 +1,98 @@
+[
+  {
+    "name": "Thomas' Calculus",
+    "description": "Early Transcendentals, Thirteenth Edition, provides a modern introduction to calculus that focuses on conceptual understanding in developing the essential\nelements of a traditional course",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/1037",
+    "author": "George B.Thomas"
+  },
+  {
+    "name": "Linear Algebra and its Applications",
+    "description": "This Fifth Edition provides substantial support\nboth for teaching and for using technology in the course.",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/183",
+    "author": "David C.Lay."
+  },
+  {
+    "name": "A History of Modern Psychology ",
+    "description": "presents a history of psychology up to the turn of the 21st century. Author David C. Ludden, Jr. uses a topical approach to discuss key thinkers and breakthroughs within the context of various schools of thought, allowing students to see how philosophers, researchers.",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/677",
+    "author": "Ludden C. David."
+  },
+  {
+    "name": "The Hungry Steppe",
+    "description": " examines one of the most heinous crimes of the Stalinist regime: the Kazakh famine of 1930–33. More than 1.5 million people, a quarter of Kazakhstan's population, perished.",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/1008",
+    "author": "Sarah Cameron."
+  },
+    {
+    "name": "Real-Time Embedded Systems",
+    "description": "Offering comprehensive coverage of the convergence of real-time embedded systems scheduling, resource access control, software design and development, and high-level system modeling, analysis and verification ",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/700",
+    "author": "Jiacan Wang."
+  },
+    {
+    "name": "Computer Networking: A Top-Down Approach",
+    "description": "The subject of computer networking is enormously complex, involving many concepts, protocols, and\ntechnologies that are woven together in an intricate manner",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/954",
+    "author": "James Kurose"
+  },
+    {
+    "name": "Advanced Cybersecurity Technologies ",
+    "description": "The book is intended for advanced undergraduate and postgraduate courses on cybersecurity but is also useful for those studying IT or Computer Science more generally.",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/948",
+    "author": "Ralph Moseley."
+  },
+  {
+    "name": "Sociology ",
+    "description": "This original and controversial book provides an excellent introduction to Giddens' work, covering the wide range of his writing from theory to self-reflexivity, modernity and politics, placing them all within the illuminating framework of a historical context.",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/719",
+    "author": "Anthony Giddens."
+  },
+    {
+    "name": "Korean Administration and Organizational Culture",
+    "description": "In this book, applied the study of folklore and anthropology to public administration in an attempt to describe the actual dynamics of the Korean administrative context. ",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/1440",
+    "author": "Suk-Joon Cho."
+  },
+  {
+    "name": "Handbook of Cultural Studies and Education",
+    "description": "Brings together interdisciplinary voices to ask critical questions about the meanings of diverse forms of cultural studies and the ways in which it can enrich both education scholarship and practice.",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/699",
+    "author": "Peter Pericles Trifonas."
+  },
+  {
+    "name": "Decision Intelligence: Human-Machine Integration for Decision-Making",
+    "description": "Revealing the limitations of human decision-making, this book explores how Artificial Intelligence (AI) can be used to optimize decisions for improved business outcomes and efficiency.",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/1137",
+    "author": "Miriam O'Callaghan."
+  },
+  {
+    "name": "Probabilistic Machine Learning",
+    "description": "A detailed and up-to-date introduction to machine learning, presented through the unifying lens of probabilistic modeling and Bayesian decision theory.",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/728",
+    "author": "Kevin P.Murphy."
+  },
+  {
+    "name": "Applied Incident Response",
+    "description": "Incident response is critical for the active defense of any network, and incident responders need up-to-date, immediately applicable techniques with which to engage the adversary. ",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/950",
+    "author": "Steve Anson."
+  },
+  {
+    "name": "A Leader's Guide to Cybersecurity ",
+    "description": "Presents a timely, clear-eyed, and actionable framework that will empower senior executives and board members to become stewards of their companies' cybersecurity activities. ",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/396",
+    "author": "Thomas J.Parenty."
+  },
+  {
+    "name": "Korean Art from the 19th centure to the present",
+    "description": "Opening up this fascinating world to general audiences, this book will appeal to anyone wanting to explore this rich and fascinating era in Korea’s cultural history.",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/1473",
+    "author": "Charlotte Horlyck."
+  },
+  {
+    "name": "The Theory and Practice of Change Management ",
+    "description": "John Hayes’ bestselling textbook combines a scholarly discussion of change management with a host of practical tools and techniques. ",
+    "photo_url": "http://library.astanait.edu.kz/MegaPro/DownLoad/GetBookCover/1012",
+    "author": "John Hayes."
+  }
+]

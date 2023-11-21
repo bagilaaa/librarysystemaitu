@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <style>
+        body {
+            font-family: 'Garamond', sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 18px;
+        }
+        h2 {
+            color: #333;
+        }
+        form {
+            margin: 40px;
+            padding: 20px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            width: 300px;
+            margin: auto;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: #333;
+        }
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-bottom: 16px;
+            box-sizing: border-box;
+        }
+        input[type="submit"] {
+            background-color: #007bff;
+            color: #fff;
+            cursor: pointer;
+        }
+        input[type="submit"]:hover {
+            background-color: #0056b3;
+        }
+         .logo-container {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            padding: 30px;
+        }
+        .logo img {
+            width: 100%;
+            max-width: 100px;
+            height: auto;
+            margin-right: 20px;
+        }
+        .header-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="logo-container">
+        <div class="logo">
+            <img src="https://static.tildacdn.com/tild3632-6531-4436-a133-333134313137/aitu-logo_.png" alt="AITU Logo">
+        </div>
+        <div class="header-container">
+            <h1>AITU DIGITAL LIBRARY</h1>
+        </div>
+    </div>
+
+    <h2>LOGIN</h2>
+    <form method="POST" action="{{ url_for('login') }}">
+        <label for="username">Username: </label>
+        <input type="text" id="username" name="username" required>
+        <br>
+        <label for="password">Password: </label>
+        <input type="password" id="password" name="password" required>
+        <br>
+        <input type="submit" value="Login">
+    </form>
+    <p>Do not have an account? <a href="{{ url_for('register') }}">Register</a></p>
+</body>
+</html>
